@@ -1,0 +1,18 @@
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-block: 1em;
+  background-color: #242424cc;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  list-style: none;
+}
+
+.list a {
+  color: rgb(119, 32, 110);
+}
