@@ -40,7 +40,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/store" className={path === "/" ? styles.active : ""}>
+          <Link to="/store" className={path === "/store" ? styles.active : ""}>
             Store PSYC-K(C)
           </Link>
         </li>
