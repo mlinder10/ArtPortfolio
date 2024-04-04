@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -7,28 +7,43 @@ import About from "./pages/About.tsx";
 import Gallery from "./pages/Gallery.tsx";
 import Process from "./pages/Process.tsx";
 import What from "./pages/What.tsx";
+import Navbar from "./components/Navbar.tsx";
+import Store from "./pages/Store.tsx";
+
+const Page = (element: ReactNode) => (
+  <main>
+    <div style={{ position: "relative" }}>
+      <Navbar />
+    </div>
+    {element}
+  </main>
+);
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Hero />,
+    element: Page(<Hero />),
   },
   {
     path: "/about",
-    element: <About />,
+    element: Page(<About />),
   },
   {
     path: "/gallery",
-    element: <Gallery />,
+    element: Page(<Gallery />),
   },
   {
     path: "/process",
-    element: <Process />,
+    element: Page(<Process />),
   },
   {
     path: "/what",
-    element: <What />,
+    element: Page(<What />),
   },
+  {
+    path: "/store",
+    element: Page(<Store />)
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

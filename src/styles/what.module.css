@@ -10,22 +10,13 @@
   margin-bottom: 1em;
 }
 
-.section-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
 .text-container {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  padding-right: 3em;
 }
 
 .text-container p {
   font-size: 1rem;
-}
-
-.img {
-  align-self: center;
-  justify-self: center;
 }

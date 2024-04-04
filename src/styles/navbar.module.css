@@ -1,18 +1,46 @@
-.navbar {
-  position: -webkit-sticky;
-  position: sticky;
+.nav {
+  position: fixed;
   top: 0;
-  padding-block: 1em;
-  background-color: #242424cc;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  padding-top: 2em;
+  padding-left: 2em;
+  background-color: var(--bg-dark);
+  box-shadow: 0 0 10px var(--border);
 }
 
 .list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  place-items: center;
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  gap: 1em;
 }
 
 .list a {
-  color: rgb(119, 32, 110);
+  color: var(--txt-light);
+  font-size: 0.9rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.list a:not(:has(img))::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--txt-light);
+  transition: .3s ease-in-out;
+}
+.list a:hover::after {
+  width: 100%;
+}
+.list a.active {
+  color: var(--txt);
+}
+
+.logo {
+  width: 5em;
 }

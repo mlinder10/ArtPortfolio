@@ -27,7 +27,12 @@ export default function Gallery() {
     <>
       <div className={styles.container}>
         {images.map((image, index) => (
-          <img key={index} src={image} onClick={() => setItem(image)} className={styles.image} />
+          <img
+            key={index}
+            src={image}
+            onClick={() => setItem(image)}
+            className={styles.image}
+          />
         ))}
       </div>
       <GalleryItem item={item} setItem={setItem} />
