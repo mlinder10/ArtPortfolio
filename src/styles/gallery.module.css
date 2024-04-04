@@ -16,13 +16,14 @@
 .item-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  box-shadow: 0 0 10px var(--border);
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  border: thin solid var(--txt);
+  background-color: var(--bg-dark);
   border-left: none;
   font-size: 0.8rem;
   padding: 0.25em;
