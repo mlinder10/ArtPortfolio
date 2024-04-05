@@ -1,7 +1,6 @@
 import { GalleryItemType } from "../types";
 import { Dispatch, SetStateAction } from "react";
 import styles from "../styles/gallery.module.css";
-// import Reveal from "./Reveal";
 
 type GalleryItemProps = {
   item: GalleryItemType;
@@ -10,7 +9,6 @@ type GalleryItemProps = {
 
 export default function GalleryItem({ item, setItem }: GalleryItemProps) {
   return (
-    // <Reveal from="bottom">
     <div onClick={() => setItem(item.url)} className={styles["item-container"]}>
       <img src={item.url} alt="" className={styles.img} />
       <div className={styles["text-container"]}>
@@ -31,6 +29,5 @@ export default function GalleryItem({ item, setItem }: GalleryItemProps) {
         <p className={styles.description}>{item.descriptionThree}</p>
       </div>
     </div>
-    // </Reveal>
   );
 }
