@@ -1,5 +1,6 @@
 .container {
   padding-left: 3em;
+  padding-right: 2em;
   margin-top: 4em;
   margin-bottom: 2em;
 }
@@ -12,7 +13,8 @@
 
 .section-container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 2em;
 }
 
 .text-container {
@@ -26,6 +28,7 @@
 }
 
 .img {
+  width: 100%;
   align-self: center;
   justify-self: center;
 }

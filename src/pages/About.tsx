@@ -65,7 +65,7 @@ export default function About() {
             COWS COME HOME…
           </p>
         </div>
-        <img src="https://placehold.co/300x500" className={styles.img} />
+        <img src="about.jpg" className={styles.img} />
       </div>
     </div>
   );

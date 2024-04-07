@@ -4,6 +4,8 @@ export default function What() {
   return (
     <div className={styles.container}>
       <p className={styles.title}>What is Sacred Geometry</p>
+      <img src="/what_is_it.png" alt="" className={styles.img} />
+
       <div className={styles["text-container"]}>
         <p>
           Sacred geometry explores the hidden language of shapes and patterns

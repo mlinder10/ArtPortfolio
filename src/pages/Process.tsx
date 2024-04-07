@@ -31,10 +31,10 @@ export default function Process() {
           </p>
         </div>
         <div className={styles["img-container"]}>
-          <img src="https://placehold.co/400x400" alt="" />
+          <img src="/process_one.jpg" alt="" />
         </div>
         <div className={styles["img-container"]}>
-          <img src="https://placehold.co/400x400" alt="" />
+          <img src="/process_two.jpg" alt="" />
         </div>
         <div className={styles["text-container"]}>
           <p>
