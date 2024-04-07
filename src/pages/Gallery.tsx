@@ -10,9 +10,12 @@ export default function Gallery() {
   return (
     <>
       <div className={styles.container}>
-        {items.map((i) => (
-          <GalleryItem key={i.title} item={i} setItem={setItem} />
-        ))}
+        <h1 className={styles.title}>Gallery</h1>
+        <div className={styles["gallery-container"]}>
+          {items.map((i) => (
+            <GalleryItem key={i.title} item={i} setItem={setItem} />
+          ))}
+        </div>
       </div>
       <ImageModal item={item} setItem={setItem} />
     </>

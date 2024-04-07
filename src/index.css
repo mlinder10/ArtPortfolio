@@ -6,6 +6,8 @@
   --bg-dark: #e0e0e0;
   --border: #bbb;
 
+  --accent: #fcc3f9;
+
   font-family: Palatino, serif;
   line-height: 1.5;
   font-weight: 400;
@@ -29,7 +31,7 @@
 
 main {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 a {
@@ -40,5 +42,3 @@ a {
 a:hover {
   color: #535bf2;
 }
-
-

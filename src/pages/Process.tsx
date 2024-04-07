@@ -21,14 +21,6 @@ export default function Process() {
             at this stage, the final outcome remains a mystery, as I let
             intuition guide the process.
           </p>
-          <p>
-            Once the groundwork is laid, I delve into the realm of color,
-            allowing the process to organically unfold. Using a blend of acrylic
-            and pouring medium, I mix the paint to achieve the perfect texture
-            for the subsequent dotting technique. This method serves as a
-            soothing ritual, where my mind effortlessly calculates and counts,
-            fostering a sense of tranquility.
-          </p>
         </div>
         <div className={styles["img-container"]}>
           <img src="/process_one.jpg" alt="" />
@@ -38,10 +30,20 @@ export default function Process() {
         </div>
         <div className={styles["text-container"]}>
           <p>
+            Once the groundwork is laid, I delve into the realm of color,
+            allowing the process to organically unfold. Using a blend of acrylic
+            and pouring medium, I mix the paint to achieve the perfect texture
+            for the subsequent dotting technique. This method serves as a
+            soothing ritual, where my mind effortlessly calculates and counts,
+            fostering a sense of tranquility.
+          </p>
+          <p>
             Immersed in the creative zone, I infuse each piece with intention,
             breathing love, peace, and whatever emotions arise within me into
             the design.
           </p>
+        </div>
+        <div className={styles["text-container"]}>
           <p>
             The journey continues with the application of epoxy, conducted at my
             dedicated station. Here, I pour, flame polish, and meticulously wipe
@@ -58,6 +60,9 @@ export default function Process() {
             ready to grace your space as a tabletop or wall hanging, inviting
             you to immerse yourself in its beauty and craftsmanship.
           </p>
+        </div>
+        <div className={styles["img-container"]}>
+          <img src="/process_three.jpg" alt="" />
         </div>
       </div>
     </div>
