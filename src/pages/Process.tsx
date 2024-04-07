@@ -3,7 +3,7 @@ import styles from "../styles/process.module.css";
 export default function Process() {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>The Process</p>
+      <h1 className={styles.title}>The Process</h1>
       <div className={styles["section-container"]}>
         <div className={styles["text-container"]}>
           <p>

@@ -3,7 +3,7 @@ import styles from "../styles/what.module.css";
 export default function What() {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>What is Sacred Geometry</p>
+      <h1 className={styles.title}>What is Sacred Geometry</h1>
       <img src="/what_is_it.png" alt="" className={styles.img} />
 
       <div className={styles["text-container"]}>
