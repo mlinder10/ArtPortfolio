@@ -24,3 +24,18 @@
   width: 100%;
   margin-bottom: 2em;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 1em;
+    margin-top: 2em;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text-container p {
+    padding-right: 0;
+  }
+}

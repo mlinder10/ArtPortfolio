@@ -29,11 +29,28 @@
 }
 
 .img-container {
-  /* display: grid; */
-
   img {
     width: 80%;
     aspect-ratio: 1;
     object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 1em;
+    margin-top: 2em;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section-container {
+    grid-template-columns: 1fr;
+  }
+
+  .text-container p {
+    padding-right: 0;
   }
 }

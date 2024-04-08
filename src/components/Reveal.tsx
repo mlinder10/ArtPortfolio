@@ -28,7 +28,7 @@ export default function Reveal({
   coverDuration = 0.3,
   coverDelay = 0,
   style = {},
-  className=""
+  className = "",
 }: RevealProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -69,7 +69,11 @@ export default function Reveal({
   }
 
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden", ...style }} className={className}>
+    <div
+      ref={ref}
+      style={{ position: "relative", width, overflow: "hidden", ...style }}
+      className={className}
+    >
       <motion.div
         variants={{
           hidden: computeFrom(),

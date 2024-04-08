@@ -10,7 +10,7 @@ type ImageModalProps = {
 export function ImageModal({ item, setItem }: ImageModalProps) {
   if (item === null) return null;
 
-  console.log(item)
+  console.log(item);
 
   return (
     <div className={styles.modal}>
