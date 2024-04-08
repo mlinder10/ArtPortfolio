@@ -1,14 +1,20 @@
+import { Link } from "react-router-dom";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
-        <img src="/logo_dotted.gif" alt="" className={styles.img} />
-        <p className={styles.welcome}>Welcome to the Creative Universe of</p>
-        <p className={styles.name}>Lynne</p>
-        <p className={styles.title}>Sacred Geometry Designs</p>
-        <p className={styles.description}>Medium: Love & Intention</p>
+      <img src="/what_is_it.jpg" alt="" className={styles.img} />
+      <p className={styles.title}>Welcome to the Creative Universe of Lynne</p>
+      <p className={styles["title-two"]}>Sacred Geometry Designs</p>
+      <p className={styles["title-three"]}>Medium: Love & Intention</p>
+      <div className={styles["link-container"]}>
+        <Link to="/gallery" className={styles.link}>
+          View Work
+        </Link>
+        <Link to="/about" className={styles.link}>
+          About Me
+        </Link>
       </div>
     </div>
   );
