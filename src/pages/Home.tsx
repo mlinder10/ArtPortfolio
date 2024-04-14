@@ -8,6 +8,7 @@ export default function Home() {
       <p className={styles.title}>Welcome to the Creative Universe of Lynne</p>
       <p className={styles["title-two"]}>Sacred Geometry Designs</p>
       <p className={styles["title-three"]}>Medium: Love & Intention</p>
+      <p>Contact me at {"untilthecows@gmail.com"}</p>
       <div className={styles["link-container"]}>
         <Link to="/gallery" className={styles.link}>
           View Work

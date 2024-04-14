@@ -4,7 +4,7 @@ export default function What() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>What is Sacred Geometry</h1>
-      <img src="/what_is_it.png" alt="" className={styles.img} />
+      <img src="/what.jpg" alt="" className={styles.img} />
 
       <div className={styles["text-container"]}>
         <p>
