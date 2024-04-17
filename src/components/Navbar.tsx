@@ -57,7 +57,7 @@ export default function Navbar() {
               to="/store"
               className={path === "/store" ? styles.active : ""}
             >
-              Store PSYC-K(C)
+              Store
             </Link>
           </li>
         </ul>
