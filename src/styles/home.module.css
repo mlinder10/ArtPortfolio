@@ -26,6 +26,16 @@
   font-style: italic;
 }
 
+.contact {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+
+  a {
+    color: var(--accent)
+  }
+}
+
 .link-container {
   display: flex;
   gap: 4em;
