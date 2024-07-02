@@ -177,4 +177,63 @@ export const items: GalleryItemType[] = [
     descriptionThree: "These mandalas are charged with clear quartz",
     descriptionTwoColor: "#000",
   },
+  // fifteen
+  {
+    url: "/om_my_goodness.jpg",
+    title: "Om My Goodness",
+    healingPower: "Serenity",
+    description:
+      " This mandala was created with the intention of serenity. The Om in the center represents the sound of creation.",
+    descriptionTwo:
+      "harmonizing serenity and creation grants the observer a sense of peace and calm while manifesting desires. ",
+    descriptionThree: "This mandala is charged with Amethyst.",
+    descriptionTwoColor: "#903",
+  },
+  // sixteen
+  {
+    url: "/i_wonder.png",
+    title: "I Wonder",
+    healingPower: "Empowerment",
+    description:
+      "The Inner Feline call to arms. Time to get up and take on the world with love and light. What am I capable of? Absolutely anything with my head held high, chest up, light in my heart.",
+    descriptionTwo:
+      "... breathe in the power of the energy that is divinely yours. The power we forget amid doing the every day. Take a moment and harness that energy and use it to bring “light” to the world.",
+    descriptionThree: "This mandala is charged with citrine.",
+    descriptionTwoColor: "#00c",
+  },
+  // seventeen
+  {
+    url: "/the_game.jpg",
+    title: "The Game",
+    healingPower: "Moral Reasoning",
+    description:
+      "Life presents challenges and puzzles that require players to think critically. Strategy. Focus. Complex problem-solving skills are to be drawn to master this intricate journey.",
+    descriptionTwo:
+      "Just one conscious breath focusing on the power within to integrate the male and female. The left brain for order and planning and the right for creativity and intuition.",
+    descriptionThree: "This mandala is charged with silver",
+    descriptionTwoColor: "#777",
+  },
+  // eighteen
+  {
+    url: "/myrtle_and_gert.png",
+    title: "Myrtle & Gert",
+    healingPower: "Trust",
+    description:
+      "At the heart of this mandala lies the Celtic symbol for sisterhood. Sisterhood represents an unparalleled bond of trust, love, and playfulness, forged through a shared lifetime of endless laughter, memories (both good and bad), hopes, dreams, and confidences. It can be the deepest connection in this lifetime.",
+    descriptionTwo:
+      "Just one conscious breath focusing on the connections will evoke a feeling that the universe is supporting you. The great female energy holds you in love and light.",
+    descriptionThree: "This mandala is charged with silver",
+    descriptionTwoColor: "#ED7B81",
+  },
+  // nineteen
+  {
+    url: "/doborhead.png",
+    title: "DOBÖRHEAD",
+    healingPower: "",
+    description: "Created for: Reckless Ambition",
+    descriptionTwo:
+      "Remember… the feeling of being young. Finding the center of the universe in the middle of the mosh pit. Banging your head like you had a license for it. ",
+    descriptionThree: "This painting brings back that feeling",
+    descriptionTwoColor: "var(--txt)",
+  },
 ];

@@ -15,15 +15,20 @@ export default function GalleryItem({ item, setItem }: GalleryItemProps) {
         <p>
           <b>{item.title}</b>
         </p>
-        <p className={styles.healing}>Healing Power: {item.healingPower}</p>
+        {item.healingPower.length > 0 && (
+          <p className={styles.healing}>Healing Power: {item.healingPower}</p>
+        )}
         <p className={styles.description}>{item.description}</p>
         <p
           className={styles.description}
           style={{ color: item.descriptionTwoColor }}
         >
-          <span style={{ textDecoration: "underline" }}>
-            <b>Just one conscious breath</b>
-          </span>
+          {item.descriptionTwo.charAt(0) ===
+            item.descriptionTwo.charAt(0).toLowerCase() && (
+            <span style={{ textDecoration: "underline" }}>
+              <b>Just one conscious breath</b>
+            </span>
+          )}
           {item.descriptionTwo}
         </p>
         <p className={styles.description}>{item.descriptionThree}</p>
