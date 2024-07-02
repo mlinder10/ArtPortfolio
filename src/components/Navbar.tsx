@@ -53,12 +53,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              to="/store"
+            <a
+              href="https://until-the-cows.square.site"
+              target="_blank"
               className={path === "/store" ? styles.active : ""}
             >
               Store
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
