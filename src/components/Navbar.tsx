@@ -105,9 +105,10 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              to="/store"
+            <a
+              href="https://until-the-cows.square.site"
               className={path === "/store" ? styles.active : ""}
+              target="_blank"
             >
               <FaStore />
             </Link>
