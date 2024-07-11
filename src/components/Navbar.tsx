@@ -111,7 +111,7 @@ export default function Navbar() {
               target="_blank"
             >
               <FaStore />
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
