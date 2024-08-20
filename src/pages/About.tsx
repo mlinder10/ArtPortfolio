@@ -46,8 +46,12 @@ export default function About() {
             meditation and metaphysics.
           </p>
           <p>
-            Guided by the universe, I found myself in the company of remarkable
-            teachers to help me begin to understand the power within.
+            <b>
+              Guided by the universe, I found myself in the company of
+              remarkable teachers to help me begin to understand the healing
+              power within. In January 2024, I was released from that diagnosis
+              by my medical doctor.
+            </b>
           </p>
           <p>
             Much of my adult life was spent in a high-stress corporate
